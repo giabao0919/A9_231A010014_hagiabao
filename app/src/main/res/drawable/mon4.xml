@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Nền tròn -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M50,0 A50,50 0 1,0 50,100 A50,50 0 1,0 50,0 Z"/>
+    <!-- Vỏ bánh mì trên -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M15,48 C15,30 85,30 85,48 C85,50 15,50 15,48 Z"/>
+    <!-- Nhân bánh (Thịt, dưa leo, ngò) -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M20,48 L80,48 L80,56 L20,56 Z"/>
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M22,54 Q50,60 78,54 L78,58 L22,58 Z"/>
+    <!-- Vỏ bánh mì dưới -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M15,56 C15,72 85,72 85,56 C85,54 15,54 15,56 Z"/>
+    <!-- Vết khứa bánh mì -->
+    <path
+        android:strokeColor="#FFE082"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,36 L38,42 M46,35 L54,41 M62,36 L70,42"/>
+</vector>

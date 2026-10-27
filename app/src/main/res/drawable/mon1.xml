@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Nền tròn -->
+    <path
+        android:fillColor="#FFEDE0"
+        android:pathData="M50,0 A50,50 0 1,0 50,100 A50,50 0 1,0 50,0 Z"/>
+    <!-- Hơi nóng -->
+    <path
+        android:strokeColor="#FF8A65"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M38,28 Q34,20 38,14 M50,26 Q46,18 50,12 M62,28 Q58,20 62,14"/>
+    <!-- Thân tô -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M20,42 C20,70 30,80 50,80 C70,80 80,70 80,42 Z"/>
+    <!-- Đế tô -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M40,80 L60,80 L64,86 L36,86 Z"/>
+    <!-- Mặt nước dùng -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M20,42 C20,48 80,48 80,42 C80,36 20,36 20,42 Z"/>
+    <!-- Thịt bò & Phở -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M35,42 Q42,46 50,42 Q58,46 65,42 Q58,38 50,42 Q42,38 35,42 Z"/>
+    <!-- Hành lá -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M42,38 A3,3 0 1,0 42,44 A3,3 0 1,0 42,38 Z M58,40 A2.5,2.5 0 1,0 58,45 A2.5,2.5 0 1,0 58,40 Z"/>
+</vector>
